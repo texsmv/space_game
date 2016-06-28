@@ -1,0 +1,104 @@
+# depslib dependency file v1.0
+1466900256 source:/home/texs/Documents/c++/proyecto_discreta/main.cpp
+	<SFML/Graphics.hpp>
+	"objeto_estatico.h"
+	"juego.h"
+
+1466867416 source:/home/texs/Documents/c++/proyecto_discreta/src/objeto.cpp
+	"objeto.h"
+
+1467044153 /home/texs/Documents/c++/proyecto_discreta/include/objeto.h
+	<iostream>
+	<tuple>
+	<SFML/Graphics.hpp>
+
+1466957230 source:/home/texs/Documents/c++/proyecto_discreta/src/objeto_estatico.cpp
+	"objeto_estatico.h"
+
+1466966940 /home/texs/Documents/c++/proyecto_discreta/include/objeto_estatico.h
+	"objeto.h"
+
+1467073884 source:/home/texs/Documents/c++/proyecto_discreta/src/juego.cpp
+	"juego.h"
+
+1467073959 /home/texs/Documents/c++/proyecto_discreta/include/juego.h
+	<SFML/Graphics.hpp>
+	<algorithm>
+	<vector>
+	<map>
+	"objeto_animado.h"
+	"objeto_estatico.h"
+	"objeto.h"
+	"nave.h"
+	"proyectil_estatico.h"
+	"asteroide.h"
+
+1467042134 source:/home/texs/Documents/c++/proyecto_discreta/src/objeto_animado.cpp
+	"objeto_animado.h"
+
+1467044141 /home/texs/Documents/c++/proyecto_discreta/include/objeto_animado.h
+	<vector>
+	"objeto.h"
+
+1467073919 source:/home/texs/Documents/c++/proyecto_discreta/src/nave.cpp
+	"nave.h"
+
+1467042947 /home/texs/Documents/c++/proyecto_discreta/include/nave.h
+	"objeto_animado.h"
+	"proyectil_estatico.h"
+	"bala_azul.h"
+	"bala_roja.h"
+	"estacion.h"
+	"bala_electrica.h"
+	"proyectil_animado.h"
+
+1466998579 source:/home/texs/Documents/c++/proyecto_discreta/src/proyectil_estatico.cpp
+	"proyectil_estatico.h"
+
+1466999686 /home/texs/Documents/c++/proyecto_discreta/include/proyectil_estatico.h
+	"objeto_estatico.h"
+
+1466939441 /home/texs/Documents/c++/proyecto_discreta/include/bala_azul.h
+	"proyectil_estatico.h"
+
+1466997292 source:/home/texs/Documents/c++/proyecto_discreta/src/bala_azul.cpp
+	"bala_azul.h"
+
+1466972722 /home/texs/Documents/c++/proyecto_discreta/include/bala_roja.h
+	"bala_roja.h"
+	"proyectil_estatico.h"
+
+1466996691 source:/home/texs/Documents/c++/proyecto_discreta/src/bala_roja.cpp
+	"bala_roja.h"
+
+1466999187 source:/home/texs/Documents/c++/proyecto_discreta/src/asteroide.cpp
+	"asteroide.h"
+
+1466970664 /home/texs/Documents/c++/proyecto_discreta/include/asteroide.h
+	"objeto_animado.h"
+	<map>
+	<vector>
+	"funciones.h"
+
+1466967195 /home/texs/Documents/c++/proyecto_discreta/include/funciones.h
+
+1467044280 source:/home/texs/Documents/c++/proyecto_discreta/src/bala_electrica.cpp
+	"bala_electrica.h"
+
+1467044123 /home/texs/Documents/c++/proyecto_discreta/include/bala_electrica.h
+	"proyectil_animado.h"
+
+1467045438 source:/home/texs/Documents/c++/proyecto_discreta/src/estacion.cpp
+	"estacion.h"
+
+1467045286 /home/texs/Documents/c++/proyecto_discreta/include/estacion.h
+	<vector>
+	"proyectil_estatico.h"
+	"bala_electrica.h"
+
+1467043296 source:/home/texs/Documents/c++/proyecto_discreta/src/proyectil_animado.cpp
+	"proyectil_animado.h"
+
+1467042187 /home/texs/Documents/c++/proyecto_discreta/include/proyectil_animado.h
+	"objeto_animado.h"
+

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="proyecto_discreta" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/proyecto_discreta" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/proyecto_discreta" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="include/asteroide.h" />
+		<Unit filename="include/bala_azul.h" />
+		<Unit filename="include/bala_electrica.h" />
+		<Unit filename="include/bala_roja.h" />
+		<Unit filename="include/estacion.h" />
+		<Unit filename="include/funciones.h" />
+		<Unit filename="include/juego.h" />
+		<Unit filename="include/nave.h" />
+		<Unit filename="include/objeto.h" />
+		<Unit filename="include/objeto_animado.h" />
+		<Unit filename="include/objeto_estatico.h" />
+		<Unit filename="include/proyectil_animado.h" />
+		<Unit filename="include/proyectil_estatico.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/asteroide.cpp" />
+		<Unit filename="src/bala_azul.cpp" />
+		<Unit filename="src/bala_electrica.cpp" />
+		<Unit filename="src/bala_roja.cpp" />
+		<Unit filename="src/estacion.cpp" />
+		<Unit filename="src/juego.cpp" />
+		<Unit filename="src/nave.cpp" />
+		<Unit filename="src/objeto.cpp" />
+		<Unit filename="src/objeto_animado.cpp" />
+		<Unit filename="src/objeto_estatico.cpp" />
+		<Unit filename="src/proyectil_animado.cpp" />
+		<Unit filename="src/proyectil_estatico.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
